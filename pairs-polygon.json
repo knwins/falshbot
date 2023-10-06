@@ -1,0 +1,42 @@
+[
+  {
+    "symbols": "USDC-WETH",
+    "fee": 3000,
+    "pairs": [
+      "0x0e44cEb592AcFC5D3F09D996302eB4C499ff8c10",
+      "0x1b0585Fc8195fc04a46A365E670024Dfb63a960C"
+    ]
+  },
+  {
+    "symbols": "USDT-WETH",
+    "fee": 3000,
+    "pairs": [
+      "0x4CcD010148379ea531D6C587CfDd60180196F9b1",
+      "0xA2decb2F871c4210d518858E82f11FEAeA17329b"
+    ]
+  },
+  {
+    "symbols": "MATIC-WETH",
+    "fee": 3000,
+    "pairs": [
+      "0x167384319B41F7094e62f7506409Eb38079AbfF8",
+      "0x89A54409f8ce05b91317C0e2a985E8d30de93341"
+    ]
+  },
+  {
+    "symbols": "WBTC-WETH",
+    "fee": 3000,
+    "pairs": [
+      "0xfe343675878100b344802A6763fd373fDeed07A4",
+      "0x743b474D5D85cFD8379aD2B3E91a57FBee605fbD"
+    ]
+  },
+  {
+    "symbols": "AAVE-WETH",
+    "fee": 3000,
+    "pairs": [
+      "0x2aCeda63B5e958c45bd27d916ba701BC1DC08F7a",
+      "0xFCf92152659CCaAA68699A21C6C98053d0fa51e1"
+    ]
+  }
+]

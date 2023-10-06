@@ -1,0 +1,48 @@
+{
+  "name": "flash-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bot": "hardhat run --network polygon bot/index.ts",
+    "verify": "npx hardhat verify --network polygon_mumbai 0xF1E704281e92112CcF79D06b36cdF44cfD807215 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "prettier": "prettier --write --plugin=prettier-plugin-solidity 'contracts/**/*.sol'",
+    "addbasetoken": "npx hardhat run --network polygon_mumbai scripts/add-basetoken.ts",
+    "deploy": "npx hardhat run --network polygon_mumbai scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@typechain/ethers-v5": "^6.0.5",
+    "@typechain/hardhat": "^1.0.1",
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.14.37",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.1.2",
+    "hardhat-contract-sizer": "^2.10.0",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.7",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^9.1.1",
+    "typechain": "^4.0.3",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.18.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@ricokahler/pool": "^1.1.2",
+    "@types/async-lock": "^1.1.2",
+    "@types/lodash": "^4.14.168",
+    "@uniswap/v3-core": "^1.0.1",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "async-lock": "^1.2.8",
+    "axios": "^0.21.1",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "lodash.combinations": "^18.10.0",
+    "winston": "^3.3.3"
+  }
+}
